@@ -6,6 +6,7 @@ import java.math.BigInteger;
  *
  * Notes: Implemented using BigInteger to allow numbers outside the range of
  *        the 'long' data type to be used
+ *        [-9,223,372,036,854,775,808, +9,223,372,036,854,775,807]
  */
 public class PrimeFactorFinder {
     public static void main(String[] args) {
