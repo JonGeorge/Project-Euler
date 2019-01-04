@@ -19,7 +19,8 @@ import java.lang.Math;
 
 public class SumSquareDifference {
     public static void main(String[] args) {
-        System.out.println(new SumSquareDifference().computeSumSquareDifference(100));
+        System.out.printf("%.0f", new SumSquareDifference()
+                .computeSumSquareDifference(100));
     }
 
     private double computeSumSquareDifference(int limit) {
@@ -39,7 +40,7 @@ public class SumSquareDifference {
     private double sumSquare(int limit) {
         double sum = 0;
 
-        for (int i = 1; i <= limit; i++) {
+        for(int i = 1; i <= limit; i++) {
             sum = sum + Math.pow(i, 2);
         }
 
